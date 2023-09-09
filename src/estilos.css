@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.pageGrid{
+    display: grid;
+    grid-template-areas: "cab cont cont"
+    "cab cont cont"
+    "cab cont cont";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 3fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    background-color: #d8d8d8;
+
+}
+.cabecera{
+background-color: #3b3b3b;
+color: #ffffff;
+grid-area: cab;
+align-items: start;
+grid-template-rows: auto;
+padding: 5px;
+line-height: 1.9;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.contenido{
+    background-color: #696767;
+    grid-area: cont;
+    display: grid; 
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+.titulos{
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #b9b9b9;
+}
+.textos{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+    background-color: #d8d8d8;
+}
+
+
+.piePagina{
+    background-color: #3b3b3b;
+    color: #ffff;
+    grid-area: foot;
+    align-items: center;
+}
+.titulo{
+    align-items: center;
+}
+
+.grid-tabla {
+    width: 100%;
+    height: 20%;
+    display: grid;
+    place-items: center; 
+    background-color: #d8d8d8;
+}
+.centrar-lista {
+    text-align: center;
+    list-style-position: inside; 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+    align-items: center;
+    background-color: #d8d8d8;
+}
+
+
+   
